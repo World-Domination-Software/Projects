@@ -1,6 +1,6 @@
 name: Bug Report
 description: Report a problem with the game
-title: "[BUG] "
+title: "[BUG]: "
 labels: ["bug"]
 
 body:
@@ -8,8 +8,8 @@ body:
     id: description
     attributes:
       label: What happened?
-      description: Describe the bug
-      placeholder: The game crashed after finishing a race.
+      description: Describe the bug.
+      placeholder: The game crashes after finishing a race.
     validations:
       required: true
 
@@ -18,14 +18,10 @@ body:
     attributes:
       label: Steps to reproduce
       placeholder: |
-        1. Start race
-        2. Finish race
-        3. Game crashes
-
-  - type: textarea
-    id: expected
-    attributes:
-      label: Expected behavior
+        1. Start the game
+        2. Join a race
+        3. Finish race
+        4. Crash occurs
 
   - type: dropdown
     id: platform
