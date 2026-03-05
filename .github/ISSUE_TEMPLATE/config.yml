@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📣 Questions & Support
+    url: https://github.com/World-Domination-Software/Projects/discussions
+    about: Ask questions, get help, or talk about our game in Discussions instead of opening an issue.
+  - name: 🔐 Security Reports
+    url: https://github.com/World-Domination-Software/Projects/security/policy
+    about: Please review our security policy and use the recommended contact method for sensitive reports.

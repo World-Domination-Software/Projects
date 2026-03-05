@@ -1,11 +1,11 @@
-name: "Bug report"
-description: "Report a gameplay or UI bug in our projects."
-labels: ["bug", "triage"]
+name: "Crash report"
+description: "Report a game crash, freeze, or fatal error."
+labels: ["crash", "triage"]
 body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to report a bug. Please fill in as much detail as you can so we can reproduce and fix it.
+        Sorry you hit a crash. This form is focused on making crash reports as actionable as possible.
 
   - type: dropdown
     id: platform
@@ -35,45 +35,38 @@ body:
   - type: textarea
     id: summary
     attributes:
-      label: Short summary
-      description: One or two sentences that describe the bug.
-      placeholder: "Inventory item disappears when dragged onto quickbar."
+      label: Short summary of the crash
+      description: One or two sentences that describe when the crash happens.
+      placeholder: "Game crashes to desktop when loading save file."
     validations:
       required: true
 
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: Step-by-step instructions so we can trigger the bug on our side.
+      label: Steps before the crash
+      description: List the actions leading up to the crash. Try to be specific.
       placeholder: |
-        1. ...
-        2. ...
-        3. ...
+        1. Launch the game
+        2. Load save slot X
+        3. Open the map
     validations:
       required: true
 
   - type: textarea
-    id: expected
+    id: frequency
     attributes:
-      label: Expected behavior
-      description: What did you expect to happen instead?
-    validations:
-      required: true
-
-  - type: textarea
-    id: actual
-    attributes:
-      label: Actual behavior
-      description: What actually happened? Include any error messages you saw.
+      label: How often does it happen?
+      description: Does this crash happen every time, sometimes, or only once?
+      placeholder: "Every time I follow the steps" / "Happened once and I can't reproduce it"
     validations:
       required: true
 
   - type: textarea
     id: logs
     attributes:
-      label: Logs (optional)
-      description: Paste relevant log snippets or crash output if available. Avoid sharing personal data.
+      label: Crash logs (optional)
+      description: Paste crash logs, stack traces, or OS crash reports if you have them. Avoid sharing personal data.
       render: shell
     validations:
       required: false
@@ -82,6 +75,6 @@ body:
     id: extra
     attributes:
       label: Additional context / screenshots
-      description: Add any other details, screenshots, or video links that help us understand the bug.
+      description: Add any other details, screenshots, or video links that might help.
     validations:
       required: false

@@ -1,0 +1,75 @@
+name: "Feature request"
+description: "Suggest a new feature or improvement for our projects."
+labels: ["feature-request", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for your idea! This form helps us understand what you want and why.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform (if relevant)
+      description: If this feature is platform-specific, pick the main platform.
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+        - iOS
+        - Steam Deck
+        - Other
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version / build (optional)
+      description: If this is related to a specific build, include it.
+      placeholder: "e.g. 0.3.1 (Steam), public test branch"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Summary
+      description: One or two sentences that describe the feature or improvement.
+      placeholder: "Add key rebinding for movement controls."
+    validations:
+      required: true
+
+  - type: textarea
+    id: motivation
+    attributes:
+      label: Why is this useful?
+      description: Explain the problem this feature solves or how it improves the experience.
+      placeholder: "This would help players with different keyboard layouts or accessibility needs."
+    validations:
+      required: true
+
+  - type: textarea
+    id: details
+    attributes:
+      label: Details / proposal
+      description: Share any details about how you imagine this working. Mockups or examples are welcome.
+    validations:
+      required: false
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives considered
+      description: If you have tried or thought about other approaches, mention them here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Add anything else you think we should know.
+    validations:
+      required: false

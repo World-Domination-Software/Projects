@@ -1,0 +1,93 @@
+name: "Multiplayer / online issue"
+description: "Report problems with online play, co-op, or matchmaking."
+labels: ["multiplayer", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Multiplayer can be tricky. This form helps us understand connection, latency, and session issues.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you playing on?
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+        - iOS
+        - Steam Deck
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version / build
+      description: Include the in-game version, build number, or branch.
+      placeholder: "e.g. 0.3.1 (Steam), public test branch"
+    validations:
+      required: true
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Short summary
+      description: One or two sentences that describe the multiplayer issue.
+      placeholder: "Unable to join friend's lobby (stuck on loading screen)."
+    validations:
+      required: true
+
+  - type: dropdown
+    id: connection_type
+    attributes:
+      label: Connection type
+      description: Your usual network connection when this happens.
+      options:
+        - Ethernet
+        - Wi-Fi
+        - Mobile hotspot
+        - Unknown / Other
+    validations:
+      required: false
+
+  - type: textarea
+    id: network_context
+    attributes:
+      label: Network / NAT / VPN details
+      description: Note if you or your friends are behind strict NAT, using VPNs, or on separate networks.
+      placeholder: "Both players on home Wi-Fi, no VPN. One behind strict NAT."
+    validations:
+      required: false
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: Step-by-step instructions so we can trigger the issue.
+      placeholder: |
+        1. Host creates lobby
+        2. Friend invites from friends list
+        3. Joining player hangs on "Connecting" screen
+    validations:
+      required: true
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs (optional)
+      description: Paste any relevant logs or console output that mention connection or timeout errors.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context / screenshots
+      description: Add screenshots, video, or details about your group size, region, etc.
+    validations:
+      required: false

@@ -1,0 +1,66 @@
+name: "Documentation issue"
+description: "Report confusing, missing, or incorrect documentation."
+labels: ["documentation", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Help us keep our docs clear and useful.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform (if relevant)
+      description: If this docs issue is platform-specific, pick the main platform.
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+        - iOS
+        - Steam Deck
+        - Other
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Game / docs version (optional)
+      description: Mention the game version or docs revision if you know it.
+    validations:
+      required: false
+
+  - type: input
+    id: pages
+    attributes:
+      label: Affected page(s)
+      description: Link or name the page(s) where you found the issue.
+      placeholder: "docs/getting-started.md, README, in-game help screen"
+    validations:
+      required: true
+
+  - type: textarea
+    id: issue
+    attributes:
+      label: What is wrong or missing?
+      description: Describe the problem with the current documentation.
+    validations:
+      required: true
+
+  - type: textarea
+    id: suggestion
+    attributes:
+      label: Suggested improvement (optional)
+      description: If you have a suggestion for better wording or layout, include it here.
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Related logs or commands (optional)
+      description: If this relates to a command or config, paste a minimal example.
+      render: shell
+    validations:
+      required: false

@@ -1,0 +1,58 @@
+name: "Question"
+description: "Ask a question about our game or projects. (Most questions are better in Discussions.)"
+labels: ["question", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        For quick back-and-forth and community help, please consider using Discussions instead of issues:
+        https://github.com/World-Domination-Software/Projects/discussions
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform (if relevant)
+      description: If your question is platform-specific, pick the main platform.
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+        - iOS
+        - Steam Deck
+        - Other
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version / build (optional)
+      description: Include the version if your question depends on a certain build.
+    validations:
+      required: false
+
+  - type: textarea
+    id: question
+    attributes:
+      label: Your question
+      description: Ask one focused question per issue so we can answer clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: context
+    attributes:
+      label: Background / context (optional)
+      description: Add any context that helps us understand why you are asking.
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Related logs or commands (optional)
+      description: If this question involves config or commands, paste a minimal example.
+      render: shell
+    validations:
+      required: false

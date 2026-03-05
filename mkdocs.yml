@@ -1,0 +1,25 @@
+site_name: Game Development Documentation
+site_description: Documentation, guides, and support resources
+site_url: https://World-Domination-Software.github.io/Projects
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - navigation.sections
+    - navigation.tabs
+    - navigation.top
+    - search.highlight
+    - content.code.copy
+
+plugins:
+  - search
+
+nav:
+  - Home: index.md
+  - Getting Started: getting-started.md
+  - Multiplayer: multiplayer.md
+  - Troubleshooting: troubleshooting.md
+  - Bug Reporting: bug-reporting.md
+  - FAQ: faq.md
+  - Roadmap: roadmap.md

@@ -1,0 +1,77 @@
+name: "Performance issue"
+description: "Report low FPS, stuttering, hitching, or long load times."
+labels: ["performance", "triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Performance can vary across hardware. These details help us understand and optimize.
+
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      description: What platform are you playing on?
+      options:
+        - Windows
+        - Linux
+        - macOS
+        - Android
+        - iOS
+        - Steam Deck
+        - Other
+    validations:
+      required: true
+
+  - type: input
+    id: version
+    attributes:
+      label: Game version / build
+      description: Include the in-game version, build number, or branch.
+      placeholder: "e.g. 0.3.1 (Steam), public test branch"
+    validations:
+      required: true
+
+  - type: textarea
+    id: hardware
+    attributes:
+      label: Hardware summary
+      description: CPU, GPU, RAM, and storage type (SSD/HDD) if known.
+      placeholder: "Ryzen 5 3600, RTX 2060, 16 GB RAM, SSD"
+    validations:
+      required: false
+
+  - type: textarea
+    id: summary
+    attributes:
+      label: Performance symptoms
+      description: Describe what you experience (low FPS, stutter, freezes, long loads, etc.).
+      placeholder: "FPS drops to 20 in large battles, frequent hitching when entering new areas."
+    validations:
+      required: true
+
+  - type: textarea
+    id: settings
+    attributes:
+      label: Graphics / video settings
+      description: Resolution, quality presets, VSync, etc.
+      placeholder: "1920x1080, High preset, VSync off, FSR on Balanced."
+    validations:
+      required: false
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs / profiler output (optional)
+      description: Paste any performance logs, frame captures, or relevant output if you have them.
+      render: shell
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: Additional context
+      description: Anything else that seems related (background apps, overlays, thermal throttling, etc.).
+    validations:
+      required: false
