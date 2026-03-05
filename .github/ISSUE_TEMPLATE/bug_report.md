@@ -7,15 +7,51 @@ assignees: ''
 
 ---
 
-**Describe the bug**
+name: Bug Report
+description: Report a problem with the game
+title: "[BUG] "
+labels: ["bug"]
 
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: What happened?
+      description: Describe the bug
+      placeholder: The game crashed after finishing a race.
+    validations:
+      required: true
 
-**To Reproduce**
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Start race
+        2. Finish race
+        3. Game crashes
 
-**Screenshots**
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
 
-**System Details:**
- - OS:
- - Version:
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Windows
+        - Linux
+        - Android
+        - iOS
 
-**Additional context**
+  - type: input
+    id: version
+    attributes:
+      label: Game version
+
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs or screenshots
