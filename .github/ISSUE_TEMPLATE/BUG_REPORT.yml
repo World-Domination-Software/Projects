@@ -7,21 +7,10 @@ body:
   - type: textarea
     id: description
     attributes:
-      label: What happened?
-      description: Describe the bug.
-      placeholder: The game crashes after finishing a race.
-    validations:
+      label: Describe the problem
+      
+      validations:
       required: true
-
-  - type: textarea
-    id: steps
-    attributes:
-      label: Steps to reproduce
-      placeholder: |
-        1. Start the game
-        2. Join a race
-        3. Finish race
-        4. Crash occurs
 
   - type: dropdown
     id: platform
@@ -34,9 +23,9 @@ body:
         - iOS
 
   - type: input
-    id: version
+    id: Version
     attributes:
-      label: Game version
+      label: Application version
 
   - type: textarea
     id: logs
