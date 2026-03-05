@@ -1,12 +1,3 @@
----
-name: Bug Report
-about: Report a problem
-title: BUG
-labels: bug
-assignees: ''
-
----
-
 name: Bug Report
 description: Report a problem with the game
 title: "[BUG] "
