@@ -6,6 +6,7 @@ on:
       - main
     paths:
       - 'docs/**'
+      - 'wiki/**'
       - 'README.md'
       - 'SUPPORT.md'
       - 'CONTRIBUTING.md'
@@ -40,7 +41,7 @@ jobs:
         env:
           WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
         run: |
-          git clone "https://x-access-token:${WIKI_TOKEN}@github.com/World-Domination-Software/Projects.wiki.git" wiki
+          git clone "https://x-access-token:${WIKI_TOKEN}@github.com/World-Domination-Software/Projects.wiki.git" wiki-repo
 
       - name: Copy markdown docs into wiki root (flat)
         run: |
@@ -48,30 +49,37 @@ jobs:
           # Copy top-level docs/*.md into wiki root
           for file in docs/*.md; do
             base="$(basename "$file")"
-            echo "Copying $file -> wiki/$base"
-            cp "$file" "wiki/$base"
+            echo "Copying $file -> wiki-repo/$base"
+            cp "$file" "wiki-repo/$base"
+          done
+
+          # Copy wiki/*.md files into wiki root (these are the primary wiki page sources)
+          for file in wiki/*.md; do
+            base="$(basename "$file")"
+            echo "Copying $file -> wiki-repo/$base"
+            cp "$file" "wiki-repo/$base"
           done
 
           # Copy key root docs into wiki root
           for file in README.md SUPPORT.md CONTRIBUTING.md; do
             if [ -f "$file" ]; then
-              echo "Copying $file -> wiki/$file"
-              cp "$file" "wiki/$file"
+              echo "Copying $file -> wiki-repo/$file"
+              cp "$file" "wiki-repo/$file"
             fi
           done
 
       - name: Sync documentation images (banner and icons)
         run: |
           if [ -d docs/images ]; then
-            mkdir -p wiki/images
-            echo "Syncing docs/images -> wiki/images"
-            cp -R docs/images/* wiki/images/
+            mkdir -p wiki-repo/images
+            echo "Syncing docs/images -> wiki-repo/images"
+            cp -R docs/images/* wiki-repo/images/
           else
             echo "No docs/images directory to sync."
           fi
 
       - name: Commit and push changes to wiki
-        working-directory: wiki
+        working-directory: wiki-repo
         run: |
           if [ -n "$(git status --porcelain)" ]; then
             git add .
