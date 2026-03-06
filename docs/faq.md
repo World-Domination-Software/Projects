@@ -26,3 +26,7 @@ Yes, in some cases. Please read [CONTRIBUTING.md](../CONTRIBUTING.md) before sta
 ## What if my question doesn’t fit any template?
 
 If it is a general question, use Discussions. If it is very specific and actionable, you can use the **Question** issue template.
+
+---
+
+← [[Home]]

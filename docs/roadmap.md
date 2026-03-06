@@ -1,8 +1,14 @@
 # Roadmap
 
-This document outlines the high-level areas we are interested in exploring for our projects.
+> **Roadmap discussions happen on GitHub Discussions:** [Roadmap category](https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap)
+>
+> Visit the link above to comment, react, and follow updates on planned work.
 
-> **Important:** This roadmap is a plan, not a promise. Priorities and timelines may change based on feedback, technical constraints, and team capacity.
+---
+
+This page outlines high-level areas of interest across our projects. For active planning threads, proposed milestones, and community input, see the [Roadmap discussions category](https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap).
+
+> **Note:** This roadmap is a plan, not a promise. Priorities and timelines may change based on feedback, technical constraints, and team capacity.
 
 ## Possible focus areas
 
@@ -20,3 +26,7 @@ We welcome feedback on our direction:
 - Use the **Feature request** issue template for well-defined proposals.
 
 We may update this roadmap over time as projects evolve.
+
+---
+
+← [[Home]]
