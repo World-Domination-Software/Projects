@@ -38,3 +38,7 @@ Try to include the following information:
 - A maintainer will apply labels like `triage`, `needs-info`, or `confirmed`.
 - We may ask you for more details if we cannot reproduce the problem.
 - Once fixed, the issue will typically be labeled `fixed` and closed when the fix ships.
+
+---
+
+← [[Home]]
