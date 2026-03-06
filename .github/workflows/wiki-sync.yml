@@ -6,7 +6,6 @@ on:
       - main
     paths:
       - 'docs/**'
-      - 'wiki/**'
       - 'README.md'
       - 'SUPPORT.md'
       - 'CONTRIBUTING.md'
@@ -46,15 +45,8 @@ jobs:
       - name: Copy markdown docs into wiki root (flat)
         run: |
           shopt -s nullglob
-          # Copy top-level docs/*.md into wiki root
+          # Copy top-level docs/*.md into wiki root (shared/public-facing pages)
           for file in docs/*.md; do
-            base="$(basename "$file")"
-            echo "Copying $file -> wiki-repo/$base"
-            cp "$file" "wiki-repo/$base"
-          done
-
-          # Copy wiki/*.md files into wiki root (these are the primary wiki page sources)
-          for file in wiki/*.md; do
             base="$(basename "$file")"
             echo "Copying $file -> wiki-repo/$base"
             cp "$file" "wiki-repo/$base"
