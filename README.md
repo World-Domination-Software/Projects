@@ -2,14 +2,17 @@
 
 Welcome to the public hub for **World Domination Software LLC (WDS)**.
 
-> **Note:** Player and community documentation now lives primarily in the project wiki: https://github.com/World-Domination-Software/Projects/wiki
+> **Note:** Player and community documentation lives in two places:
+> - **App-specific docs:** [`docs/applications/`](docs/INDEX.md) in this repository.
+> - **Shared docs (FAQ, support, roadmap, troubleshooting):** [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki).
 
 This repository is the front door for our community, documentation, and support. It brings together information about our applications, links to documentation, and the places where you can report issues or share feedback.
 
 ## Quick links
 
-- **Documentation (Wiki):** https://github.com/World-Domination-Software/Projects/wiki
-- **Documentation (Site):** https://World-Domination-Software.github.io/Projects
+- **App Documentation:** [docs/INDEX.md](docs/INDEX.md) – application-specific docs index.
+- **GitHub Wiki (shared docs):** https://github.com/World-Domination-Software/Projects/wiki
+- **Documentation Site:** https://World-Domination-Software.github.io/Projects
 - **Bug Reports:** https://github.com/World-Domination-Software/Projects/issues
 - **Feature Requests:** Use the *Feature request* issue template under [Issues](https://github.com/World-Domination-Software/Projects/issues)
 - **Discussions (support, ideas, feedback):** https://github.com/World-Domination-Software/Projects/discussions
@@ -33,14 +36,14 @@ The source code for our projects lives in private or separate repositories. This
 
 ## Projects
 
-| Application | Type | Wiki | Discussions |
-|---|---|---|---|
-| Game Servers Panel | Hosting / Infrastructure | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Game-Servers-Panel) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
-| Hostile Planets | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Hostile-Planets) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
-| Optimization Protocol | Utility | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Optimization-Protocol) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
-| Pure OPS | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Pure-OPS) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
-| Van Inventory | Business Tool | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Van-Inventory) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/van-inventory-general) |
-| Roadkill | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Roadkill) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadkill-general) |
+| Application | Type | Docs | GitHub Wiki | Discussions |
+|---|---|---|---|---|
+| Game Servers Panel | Hosting / Infrastructure | [Docs](docs/applications/game-servers-panel/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Game-Servers-Panel) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
+| Hostile Planets | Game | [Docs](docs/applications/hostile-planets/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Hostile-Planets) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
+| Optimization Protocol | Utility | [Docs](docs/applications/optimization-protocol/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Optimization-Protocol) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
+| Pure OPS | Game | [Docs](docs/applications/pure-ops/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Pure-OPS) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
+| Van Inventory | Business Tool | [Docs](docs/applications/van-inventory/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Van-Inventory) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/van-inventory-general) |
+| Roadkill | Game | [Docs](docs/applications/roadkill/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Roadkill) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadkill-general) |
 
 ## How to get help
 

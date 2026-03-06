@@ -19,13 +19,39 @@ nav:
   - Home: index.md
   - Getting Started: getting-started.md
   - Applications:
-    - Overview: applications.md
-    - Game Servers Panel: applications/game-servers-panel.md
-    - Hostile Planets: applications/hostile-planets.md
-    - Optimization Protocol: applications/optimization-protocol.md
-    - Pure OPS: applications/pure-ops.md
-    - Van Inventory: applications/van-inventory.md
-    - Roadkill: applications/roadkill.md
+    - Index: INDEX.md
+    - Game Servers Panel:
+      - README: applications/game-servers-panel/README.md
+      - Overview: applications/game-servers-panel/Overview.md
+      - Getting Started: applications/game-servers-panel/Getting-Started.md
+      - Implementation Notes: applications/game-servers-panel/Implementation-Notes.md
+    - Hostile Planets:
+      - README: applications/hostile-planets/README.md
+      - Overview: applications/hostile-planets/Overview.md
+      - Getting Started: applications/hostile-planets/Getting-Started.md
+      - Gameplay: applications/hostile-planets/Gameplay.md
+      - Implementation Notes: applications/hostile-planets/Implementation-Notes.md
+    - Optimization Protocol:
+      - README: applications/optimization-protocol/README.md
+      - Overview: applications/optimization-protocol/Overview.md
+      - Getting Started: applications/optimization-protocol/Getting-Started.md
+      - Implementation Notes: applications/optimization-protocol/Implementation-Notes.md
+    - Pure OPS:
+      - README: applications/pure-ops/README.md
+      - Overview: applications/pure-ops/Overview.md
+      - Getting Started: applications/pure-ops/Getting-Started.md
+      - Implementation Notes: applications/pure-ops/Implementation-Notes.md
+    - Van Inventory:
+      - README: applications/van-inventory/README.md
+      - Overview: applications/van-inventory/Overview.md
+      - Getting Started: applications/van-inventory/Getting-Started.md
+      - Implementation Notes: applications/van-inventory/Implementation-Notes.md
+    - Roadkill:
+      - README: applications/roadkill/README.md
+      - Overview: applications/roadkill/Overview.md
+      - Getting Started: applications/roadkill/Getting-Started.md
+      - Gameplay: applications/roadkill/Gameplay.md
+      - Implementation Notes: applications/roadkill/Implementation-Notes.md
   - Multiplayer: multiplayer.md
   - Troubleshooting: troubleshooting.md
   - Bug Reporting: bug-reporting.md

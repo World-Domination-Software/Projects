@@ -1,13 +1,42 @@
-# Project documentation
+# docs/
 
-This `docs/` folder collects player- and community-facing documentation for our game-related projects.
+This folder contains **application-specific documentation** for World Domination Software projects.
 
-The MkDocs site uses these pages as its source:
+## Structure
 
-- [index.md](index.md) – Documentation home page.
-- [getting-started.md](getting-started.md) – Installing or launching our game and finding help.
-- [faq.md](faq.md) – Common questions.
-- [troubleshooting.md](troubleshooting.md) – General troubleshooting and performance tips.
-- [bug-reporting.md](bug-reporting.md) – How to report a good bug.
-- [multiplayer.md](multiplayer.md) – Multiplayer checklist (NAT, VPN, firewall, Wi‑Fi vs Ethernet).
-- [roadmap.md](roadmap.md) – High-level plans and areas of focus (subject to change).
+```
+docs/
+  applications/
+    hostile-planets/      – Hostile Planets game docs
+    optimization-protocol/ – Optimization Protocol utility docs
+    pure-ops/             – Pure OPS game docs
+    van-inventory/        – Van Inventory business tool docs
+    roadkill/             – Roadkill game docs
+    game-servers-panel/   – Game Servers Panel docs
+```
+
+Each application folder contains:
+- `README.md` – Landing page with links to sub-docs and public resources.
+- `Overview.md` – Application description, features, and architecture.
+- `Getting-Started.md` – Installation and first-use guide.
+- `Implementation-Notes.md` – Architecture, components, and development status.
+- `Gameplay.md` – *(Games only)* Game modes, controls, and progression.
+
+## What belongs in docs/
+
+`docs/` contains **application-specific documentation only**.
+
+Pages that are shared or public-facing — such as FAQ, support guidance, bug reporting guidance, shared troubleshooting, roadmap, and community guides — are maintained in the [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki), not here.
+
+## Application index
+
+See [INDEX.md](INDEX.md) for a full table of applications with links.
+
+## Bug reports and issues
+
+Bug reports are tracked in [GitHub Issues](https://github.com/World-Domination-Software/Projects/issues).
+For guidance on writing a useful bug report, see the [bug reporting guide](bug-reporting.md) or the [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Bug-Reporting).
+
+## Roadmap
+
+The project roadmap is maintained in [GitHub Discussions – Roadmap category](https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap) and the [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Roadmap).
