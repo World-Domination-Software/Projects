@@ -4,7 +4,7 @@ Welcome to the public hub for **World Domination Software LLC (WDS)**.
 
 > **Note:** Player and community documentation now lives primarily in the project wiki: https://github.com/World-Domination-Software/Projects/wiki
 
-This repository is the front door for our community, documentation, and support. It brings together information about our games and tools, links to documentation, and the places where you can report issues or share feedback.
+This repository is the front door for our community, documentation, and support. It brings together information about our applications, links to documentation, and the places where you can report issues or share feedback.
 
 ## Quick links
 
@@ -33,15 +33,14 @@ The source code for our projects lives in private or separate repositories. This
 
 ## Projects
 
-This table is a starting point for listing public-facing projects. Maintainers should replace the placeholder entries with real project names, statuses, and links.
-
-| Project    | Status        | Links |
-|-----------|--------------|-------|
-| Project A | In development | Docs / store / announcement links go here |
-| Project B | Released       | Docs / store / announcement links go here |
-| Project C | Prototype      | Docs / store / announcement links go here |
-
-Update this table over time to reflect the projects you want players and partners to discover first.
+| Application | Type | Wiki | Discussions |
+|---|---|---|---|
+| Game Servers Panel | Hosting / Infrastructure | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Game-Servers-Panel) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
+| Hostile Planets | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Hostile-Planets) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
+| Optimization Protocol | Utility | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Optimization-Protocol) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
+| Pure OPS | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Pure-OPS) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
+| Van Inventory | Business Tool | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Van-Inventory) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/van-inventory-general) |
+| Roadkill | Game | [Wiki page](https://github.com/World-Domination-Software/Projects/wiki/Roadkill) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadkill-general) |
 
 ## How to get help
 
@@ -64,7 +63,7 @@ For detailed guidance, see the [bug reporting guide](docs/bug-reporting.md).
 In short, a good bug report includes:
 
 - Platform (Windows, Linux, macOS, Android, iOS, Steam Deck, or other).
-- Game version or build number.
+- Application version or build number.
 - Clear steps to reproduce the issue from a fresh start.
 - What you expected to happen vs. what actually happened.
 - Any relevant logs or error messages (with personal data removed).

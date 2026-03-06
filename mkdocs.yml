@@ -1,5 +1,5 @@
-site_name: Game Development Documentation
-site_description: Documentation, guides, and support resources
+site_name: World Domination Software – Documentation
+site_description: Documentation, guides, and support resources for WDS applications
 site_url: https://World-Domination-Software.github.io/Projects
 
 theme:
@@ -18,8 +18,19 @@ plugins:
 nav:
   - Home: index.md
   - Getting Started: getting-started.md
+  - Applications:
+    - Overview: applications.md
+    - Game Servers Panel: applications/game-servers-panel.md
+    - Hostile Planets: applications/hostile-planets.md
+    - Optimization Protocol: applications/optimization-protocol.md
+    - Pure OPS: applications/pure-ops.md
+    - Van Inventory: applications/van-inventory.md
+    - Roadkill: applications/roadkill.md
   - Multiplayer: multiplayer.md
   - Troubleshooting: troubleshooting.md
   - Bug Reporting: bug-reporting.md
   - FAQ: faq.md
   - Roadmap: roadmap.md
+  - Discussions:
+    - Community Guide: discussions.md
+    - Discussion Categories: discussions/categories.md
