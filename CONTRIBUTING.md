@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for your interest in contributing to our projects. This repository is the public hub for our game-related work (issues, discussions, and docs), not the main source-code host.
+Thanks for your interest in contributing to our projects. This repository is the public hub for our applications (issues, discussions, and docs), not the main source-code host.
 
 ## Ways to contribute
 

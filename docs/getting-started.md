@@ -1,21 +1,23 @@
 # Getting started
 
-Welcome! This repository is the community and documentation hub for our game-related projects.
+Welcome! This repository is the community and documentation hub for World Domination Software applications.
 
 ## What this repo is for
 
 - Reporting bugs, crashes, and performance issues.
 - Sharing ideas and feedback.
-- Reading basic documentation and FAQs.
+- Reading documentation and FAQs for our applications.
 - Following progress on our roadmap.
 
-## Basic steps to start playing
+## Getting started with an application
 
-Because our projects can appear on multiple platforms and storefronts, please refer to the specific store or launcher for installation instructions. In general:
+For application-specific documentation, see the [Applications](applications.md) section. Each application has its own page covering setup, features, and support options.
 
-1. Install the game from your chosen platform (PC, Linux, Steam Deck, or mobile).
-2. Make sure your graphics drivers and operating system are reasonably up to date.
-3. Launch the game and complete any first-time setup.
+Because our applications can appear on multiple platforms and storefronts, please refer to the specific store or launcher for installation instructions. In general:
+
+1. Install the application from your chosen platform or storefront.
+2. Make sure your system meets the requirements listed on the product page.
+3. Launch the application and complete any first-time setup.
 
 ## Staying up to date
 
