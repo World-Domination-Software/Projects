@@ -1,37 +1,40 @@
-# World Domination Software – Wiki
+# World Domination Software LLC – Projects Wiki
 
-Welcome to the **World Domination Software LLC (WDS)** project wiki.
+Welcome to the official documentation wiki for **World Domination Software LLC (WDS)**. This is the central navigation hub for all WDS projects — covering overviews, feature documentation, troubleshooting guides, FAQs, and support resources.
 
-This wiki is the central reference for our applications — covering overviews, feature documentation, architecture notes, development status, and support guidance.
+## Quick Links
 
-## Applications
+| Resource | Link |
+|---|---|
+| 📋 All Projects | [[Projects]] |
+| 🐛 Bug Reporting | [[Bug-Reporting]] |
+| 🔧 Troubleshooting | [[Troubleshooting-Index]] |
+| 💬 Support | [[Support]] |
+| 🗺️ Roadmap | [[Roadmap]] |
+| 🌐 Community | [[Community-and-Discussions]] |
 
-| Application | Type | Status |
-|---|---|---|
-| [Game Servers Panel](Game-Servers-Panel) | Hosting / Infrastructure | Active |
-| [Hostile Planets](Hostile-Planets) | Game | Active |
-| [Optimization Protocol](Optimization-Protocol) | Utility | Active |
-| [Pure OPS](Pure-OPS) | Game | Active |
-| [Van Inventory](Van-Inventory) | Business Tool | Active |
-| [Roadkill](Roadkill) | Game | Active |
+## Project Directory
 
-## Quick links
+| Project | Type | Status | Wiki Page |
+|---|---|---|---|
+| [Game Servers Panel](Game-Servers-Panel) | Hosting / Infrastructure | Active | [[Game-Servers-Panel]] |
+| [Hostile Planets](Hostile-Planets) | Game | Active | [[Hostile-Planets]] |
+| [Optimization Protocol](Optimization-Protocol) | Utility | Active | [[Optimization-Protocol]] |
+| [Pure OPS](Pure-OPS) | Game | Active | [[Pure-OPS]] |
+| [Van Inventory](Van-Inventory) | Business Tool | Active | [[Van-Inventory]] |
+| [Roadkill](Roadkill) | Game | Active | [[Roadkill]] |
 
-- **Bug reports and issues:** https://github.com/World-Domination-Software/Projects/issues
-- **Community discussions:** https://github.com/World-Domination-Software/Projects/discussions
-- **Roadmap:** https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap
-- **Contributing:** https://github.com/World-Domination-Software/Projects/blob/main/CONTRIBUTING.md
-- **Security policy:** https://github.com/World-Domination-Software/Projects/blob/main/SECURITY.md
+Each project page links to its own overview, troubleshooting guide, FAQ, and support resources.
 
-## How to use this wiki
+## What's Next
 
-Each application has its own page (linked in the table above) with consistent sections:
+Our public roadmap lives in GitHub Discussions. You can read about planned work, comment on priorities, and follow updates there:
 
-- **Overview** – what the application is and who it is for.
-- **Purpose** – the problem it solves and its goals.
-- **Features** – a summary of key capabilities.
-- **Architecture** – high-level technical structure.
-- **Development Status** – current state and near-term focus.
-- **Support** – where to get help.
+➡️ [View the Roadmap Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap)
 
-For community interaction and support, head to [GitHub Discussions](https://github.com/World-Domination-Software/Projects/discussions). Each application has its own discussion categories for bug reports, feature requests, user support, and general discussion.
+## Getting Help
+
+- **Questions and support:** Start in [[Support]] or browse [[FAQ]]
+- **Bug reports:** Use [[Bug-Reporting]] for issue template guidance
+- **Troubleshooting:** See [[Troubleshooting-Index]] for common symptoms
+- **Community:** Visit [[Community-and-Discussions]] to learn how to participate
