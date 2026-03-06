@@ -1,0 +1,36 @@
+name: Check documentation links
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/docs-links.yml'
+  pull_request:
+    paths:
+      - 'docs/**'
+      - '.github/workflows/docs-links.yml'
+
+jobs:
+  link-check:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+
+      - name: Install markdown-link-check
+        run: |
+          npm install -g markdown-link-check
+
+      - name: Run link check on docs
+        run: |
+          find docs -name "*.md" -print0 | xargs -0 -n 1 markdown-link-check -q
+
+      - name: Optionally check wiki (if cloned separately)
+        if: false
+        run: |
+          echo "Clone and check wiki repo here if desired."

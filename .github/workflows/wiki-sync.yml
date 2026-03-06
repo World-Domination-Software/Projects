@@ -1,0 +1,45 @@
+name: Sync docs to wiki
+
+on:
+  push:
+    paths:
+      - 'docs/**'
+      - 'README.md'
+      - 'SUPPORT.md'
+      - 'CONTRIBUTING.md'
+
+jobs:
+  sync-wiki:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Clone wiki repository
+        env:
+          REPO: ${{ github.repository }}
+          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git clone "https://x-access-token:${TOKEN}@github.com/${REPO}.wiki.git" wiki
+
+      - name: Copy documentation into wiki (basic sync)
+        run: |
+          cp -R docs/* wiki/ || true
+
+      - name: Commit and push changes to wiki
+        working-directory: wiki
+        run: |
+          if [ -n "$(git status --porcelain)" ]; then
+            git add .
+            git commit -m "Sync docs from main repo"
+            git push
+          else
+            echo "No documentation changes to sync."
+          fi

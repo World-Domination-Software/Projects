@@ -2,6 +2,8 @@
 
 Welcome to the public hub for **World Domination Software LLC (WDS)**.
 
+> **Note:** Player and community documentation now lives primarily in the project wiki: https://github.com/World-Domination-Software/Projects/wiki
+
 This repository is the front door for our community, documentation, and support. It brings together information about our games and tools, links to documentation, and the places where you can report issues or share feedback.
 
 ## Quick links
