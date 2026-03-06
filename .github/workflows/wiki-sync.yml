@@ -2,11 +2,16 @@ name: Sync docs to wiki
 
 on:
   push:
+    branches:
+      - main
     paths:
       - 'docs/**'
       - 'README.md'
       - 'SUPPORT.md'
       - 'CONTRIBUTING.md'
+
+permissions:
+  contents: write
 
 jobs:
   sync-wiki:
@@ -22,16 +27,48 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
 
+      - name: Verify WIKI_TOKEN is configured
+        env:
+          WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
+        run: |
+          if [ -z "$WIKI_TOKEN" ]; then
+            echo "Error: WIKI_TOKEN secret is not configured. Please add WIKI_TOKEN with a Personal Access Token that can push to World-Domination-Software/Projects.wiki." >&2
+            exit 1
+          fi
+
       - name: Clone wiki repository
         env:
-          REPO: ${{ github.repository }}
-          TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
         run: |
-          git clone "https://x-access-token:${TOKEN}@github.com/${REPO}.wiki.git" wiki
+          git clone "https://x-access-token:${WIKI_TOKEN}@github.com/World-Domination-Software/Projects.wiki.git" wiki
 
-      - name: Copy documentation into wiki (basic sync)
+      - name: Copy markdown docs into wiki root (flat)
         run: |
-          cp -R docs/* wiki/ || true
+          shopt -s nullglob
+          # Copy top-level docs/*.md into wiki root
+          for file in docs/*.md; do
+            base="$(basename "$file")"
+            echo "Copying $file -> wiki/$base"
+            cp "$file" "wiki/$base"
+          done
+
+          # Copy key root docs into wiki root
+          for file in README.md SUPPORT.md CONTRIBUTING.md; do
+            if [ -f "$file" ]; then
+              echo "Copying $file -> wiki/$file"
+              cp "$file" "wiki/$file"
+            fi
+          done
+
+      - name: Sync documentation images (banner and icons)
+        run: |
+          if [ -d docs/images ]; then
+            mkdir -p wiki/images
+            echo "Syncing docs/images -> wiki/images"
+            cp -R docs/images/* wiki/images/
+          else
+            echo "No docs/images directory to sync."
+          fi
 
       - name: Commit and push changes to wiki
         working-directory: wiki

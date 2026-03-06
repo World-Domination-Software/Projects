@@ -8,10 +8,12 @@ This repository is the front door for our community, documentation, and support.
 
 ## Quick links
 
-- **Documentation:** https://World-Domination-Software.github.io/Projects
+- **Documentation (Wiki):** https://github.com/World-Domination-Software/Projects/wiki
+- **Documentation (Site):** https://World-Domination-Software.github.io/Projects
 - **Bug Reports:** https://github.com/World-Domination-Software/Projects/issues
 - **Feature Requests:** Use the *Feature request* issue template under [Issues](https://github.com/World-Domination-Software/Projects/issues)
 - **Discussions (support, ideas, feedback):** https://github.com/World-Domination-Software/Projects/discussions
+- **Roadmap (Discussions category):** https://github.com/World-Domination-Software/Projects/discussions/categories/roadmap
 - **Security:** See [SECURITY.md](SECURITY.md)
 
 ## What this repo is / isn’t

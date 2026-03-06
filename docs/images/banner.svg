@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="160" viewBox="0 0 800 160">
+  <rect width="800" height="160" fill="#111111"/>
+  <rect x="0" y="120" width="800" height="40" fill="#8B4513"/>
+  <text x="50%" y="60" text-anchor="middle" fill="#E8E4D8" font-family="Segoe UI, system-ui, sans-serif" font-size="22" font-weight="600">
+    World Domination Software LLC
+  </text>
+  <text x="50%" y="100" text-anchor="middle" fill="#E8E4D8" font-family="Segoe UI, system-ui, sans-serif" font-size="16">
+    Projects Hub · Documentation · Community
+  </text>
+</svg>
