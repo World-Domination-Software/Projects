@@ -1,5 +1,13 @@
 # Do Not Shoot Aliens
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Do Not Shoot Aliens documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 A game built around restraint and precision: the challenge is identifying friend from foe and avoiding friendly fire in chaotic, fast-moving encounters.
 
 **Type:** Game | **Developer:** World Domination Software LLC
@@ -13,9 +21,8 @@ A game built around restraint and precision: the challenge is identifying friend
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Do-Not-Shoot-Aliens) – Public wiki page for Do Not Shoot Aliens.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/do-not-shoot-aliens-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Do Not Shoot Aliens** using the bug report templates.
+- [Do Not Shoot Aliens Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/do-not-shoot-aliens-general) – General discussion, support, and feature requests for this game.
 
 ## Notes
 

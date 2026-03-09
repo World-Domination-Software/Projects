@@ -1,5 +1,13 @@
 # Optimization Protocol
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Optimization Protocol documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 A desktop utility for performance analysis and system optimization. Helps users identify bottlenecks, apply targeted improvements, and track results.
 
 **Type:** Utility | **Developer:** World Domination Software LLC
@@ -12,9 +20,8 @@ A desktop utility for performance analysis and system optimization. Helps users 
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Optimization-Protocol) – Public wiki page for Optimization Protocol.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Optimization Protocol** using the bug report templates.
+- [Optimization Protocol Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) – General discussion, support, and feature requests for this utility.
 
 ## Notes
 

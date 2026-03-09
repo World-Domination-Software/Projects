@@ -1,5 +1,13 @@
 # Castle Walls
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Castle Walls documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 A strategy and defense game where players construct, upgrade, and defend fortifications against escalating waves of attackers.
 
 **Type:** Game | **Developer:** World Domination Software LLC
@@ -13,9 +21,8 @@ A strategy and defense game where players construct, upgrade, and defend fortifi
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Castle-Walls) – Public wiki page for Castle Walls.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/castle-walls-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Castle Walls** using the bug report templates.
+- [Castle Walls Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/castle-walls-general) – General discussion, support, and feature requests for this game.
 
 ## Notes
 

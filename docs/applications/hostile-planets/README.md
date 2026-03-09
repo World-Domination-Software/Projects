@@ -1,5 +1,13 @@
 # Hostile Planets
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Hostile Planets documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 An action game set across environments inspired by alien worlds. Players navigate dangerous terrain, engage hostile forces, and complete objectives across a series of increasingly challenging levels.
 
 **Type:** Game | **Developer:** World Domination Software LLC
@@ -13,9 +21,8 @@ An action game set across environments inspired by alien worlds. Players navigat
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Hostile-Planets) – Public wiki page for Hostile Planets.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Hostile Planets** using the bug report templates.
+- [Hostile Planets Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) – General discussion, support, and feature requests for this game.
 
 ## Notes
 

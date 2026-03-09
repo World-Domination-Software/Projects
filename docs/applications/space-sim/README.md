@@ -1,5 +1,13 @@
 # Space Sim
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Space Sim documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 A space simulation game featuring exploration, resource gathering, and survival across procedurally generated star systems.
 
 **Type:** Game | **Developer:** World Domination Software LLC
@@ -13,9 +21,8 @@ A space simulation game featuring exploration, resource gathering, and survival 
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Space-Sim) – Public wiki page for Space Sim.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/space-sim-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Space Sim** using the bug report templates.
+- [Space Sim Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/space-sim-general) – General discussion, support, and feature requests for this game.
 
 ## Notes
 

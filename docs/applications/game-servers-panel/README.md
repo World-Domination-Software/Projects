@@ -1,5 +1,13 @@
 # Game Servers Panel
 
+<p align="center">
+	<img src="../images/icons/doc.svg" alt="Game Servers Panel documentation" width="32" />
+	&nbsp;
+	<img src="../images/icons/bug.svg" alt="Bug reports" width="32" />
+	&nbsp;
+	<img src="../images/icons/support.svg" alt="Support and discussions" width="32" />
+</p>
+
 A web-based management application for game server infrastructure. Provides a centralized interface for deploying, monitoring, and administering game server instances.
 
 **Type:** Hosting / Infrastructure | **Developer:** World Domination Software LLC
@@ -12,9 +20,8 @@ A web-based management application for game server infrastructure. Provides a ce
 
 ## Public Links
 
-- [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki/Game-Servers-Panel) – Public wiki page for Game Servers Panel.
-- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Report bugs and issues.
-- [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) – General discussion, support, and feature requests.
+- [Bug Reports](https://github.com/World-Domination-Software/Projects/issues) – Create and track bugs for **Game Servers Panel** using the bug report templates.
+- [Game Servers Panel Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) – General discussion, support, and feature requests for this application.
 
 ## Notes
 
