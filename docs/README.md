@@ -1,5 +1,9 @@
 # docs/
 
+<p align="center">
+  <img src="./images/banner.svg" alt="World Domination Software documentation banner" width="640" />
+</p>
+
 This folder contains **application-specific documentation** for World Domination Software projects.
 
 ## Structure
@@ -24,9 +28,9 @@ Each application folder contains:
 
 ## What belongs in docs/
 
-`docs/` contains **application-specific documentation only**.
+`docs/` contains **application-specific documentation only** and is the **source of truth for all per-project documentation**.
 
-Pages that are shared or public-facing — such as FAQ, support guidance, bug reporting guidance, shared troubleshooting, roadmap, and community guides — are maintained in the [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki), not here.
+Pages that are shared or public-facing — such as how to use this repository, FAQ, support guidance, bug reporting guidance, shared troubleshooting, roadmap, and community guides — are maintained in the [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki), not here. The wiki does **not** host individual project docs; those live exclusively under `docs/applications/`.
 
 ## Application index
 

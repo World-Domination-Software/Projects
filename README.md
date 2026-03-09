@@ -1,10 +1,24 @@
 # World Domination Software LLC — Public Hub
 
+<p align="center">
+	<img src="./docs/images/banner.svg" alt="World Domination Software banner" width="720" />
+</p>
+
+<p align="center">
+	<img src="./docs/images/icons/doc.svg" alt="Documentation" width="32" />
+	&nbsp;
+	<img src="./docs/images/icons/support.svg" alt="Support" width="32" />
+	&nbsp;
+	<img src="./docs/images/icons/roadmap.svg" alt="Roadmap" width="32" />
+	&nbsp;
+	<img src="./docs/images/icons/bug.svg" alt="Bug reports" width="32" />
+</p>
+
 Welcome to the public hub for **World Domination Software LLC (WDS)**.
 
-> **Note:** Player and community documentation lives in two places:
-> - **App-specific docs:** [`docs/applications/`](docs/INDEX.md) in this repository.
-> - **Shared docs (FAQ, support, roadmap, troubleshooting):** [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki).
+> **Note:** Player and community documentation lives in two layers:
+> - **App-specific docs (source of truth for each project):** [`docs/applications/`](docs/INDEX.md) in this repository.
+> - **Shared/meta docs (how to use this repo, FAQ, bug-reporting and discussions guidance, roadmap, troubleshooting):** [GitHub Wiki](https://github.com/World-Domination-Software/Projects/wiki).
 
 This repository is the front door for our community, documentation, and support. It brings together information about our applications, links to documentation, and the places where you can report issues or share feedback.
 
@@ -36,18 +50,18 @@ The source code for our projects lives in private or separate repositories. This
 
 ## Projects
 
-All project documentation lives in the [`docs/applications/`](docs/applications/) folder of this repository. Each project has its own subfolder with dedicated pages covering an overview, getting started guide, gameplay details (for games), and implementation notes. To move a project between stages, only the section in this table needs to change — the documentation stays in its folder.
+All project documentation lives in the [`docs/applications/`](docs/applications/) folder of this repository and serves as the **source of truth** for each project. Each project has its own subfolder with dedicated pages covering an overview, getting started guide, gameplay details (for games), and implementation notes. To move a project between stages, only the section in this table needs to change — the documentation stays in its folder.
 
 ### Current Projects
 
-| Application | Type | Docs | GitHub Wiki | Discussions |
-|---|---|---|---|---|
-| Game Servers Panel | Hosting / Infrastructure | [Docs](docs/applications/game-servers-panel/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Game-Servers-Panel) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
-| Hostile Planets | Game | [Docs](docs/applications/hostile-planets/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Hostile-Planets) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
-| Optimization Protocol | Utility | [Docs](docs/applications/optimization-protocol/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Optimization-Protocol) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
-| Pure OPS | Game | [Docs](docs/applications/pure-ops/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Pure-OPS) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
-| Roadkill | Game | [Docs](docs/applications/roadkill/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Roadkill) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadkill-general) |
-| Van Inventory | Business Tool | [Docs](docs/applications/van-inventory/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Van-Inventory) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/van-inventory-general) |
+| Application | Type | Docs | Discussions |
+|---|---|---|---|
+| Game Servers Panel | Hosting / Infrastructure | [Docs](docs/applications/game-servers-panel/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
+| Hostile Planets | Game | [Docs](docs/applications/hostile-planets/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
+| Optimization Protocol | Utility | [Docs](docs/applications/optimization-protocol/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
+| Pure OPS | Game | [Docs](docs/applications/pure-ops/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
+| Roadkill | Game | [Docs](docs/applications/roadkill/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/roadkill-general) |
+| Van Inventory | Business Tool | [Docs](docs/applications/van-inventory/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/van-inventory-general) |
 
 ### Completed Projects
 
@@ -55,11 +69,11 @@ No projects have been marked completed yet.
 
 ### Upcoming Projects
 
-| Application | Type | Docs | GitHub Wiki | Discussions |
-|---|---|---|---|---|
-| Castle Walls | Game | [Docs](docs/applications/castle-walls/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Castle-Walls) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/castle-walls-general) |
-| Do Not Shoot Aliens | Game | [Docs](docs/applications/do-not-shoot-aliens/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Do-Not-Shoot-Aliens) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/do-not-shoot-aliens-general) |
-| Space Sim | Game | [Docs](docs/applications/space-sim/README.md) | [Wiki](https://github.com/World-Domination-Software/Projects/wiki/Space-Sim) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/space-sim-general) |
+| Application | Type | Docs | Discussions |
+|---|---|---|---|
+| Castle Walls | Game | [Docs](docs/applications/castle-walls/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/castle-walls-general) |
+| Do Not Shoot Aliens | Game | [Docs](docs/applications/do-not-shoot-aliens/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/do-not-shoot-aliens-general) |
+| Space Sim | Game | [Docs](docs/applications/space-sim/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/space-sim-general) |
 
 ## How to get help
 
