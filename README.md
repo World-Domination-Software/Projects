@@ -24,6 +24,13 @@ This repository is the front door for our community, documentation, and support.
 
 ## Quick links
 
+**Project views**
+
+- <img src="./docs/images/icons/doc.svg" alt="Projects" width="20" /> **[Current Projects](#current-projects)** – Active, player-facing applications.
+- <img src="./docs/images/icons/roadmap.svg" alt="Upcoming" width="20" /> **[Upcoming Projects](#upcoming-projects)** – In-progress and planned titles.
+- <img src="./docs/images/icons/support.svg" alt="Completed" width="20" /> **[Completed Projects](#completed-projects)** – Wrapped-up or legacy projects.
+
+**Resources**
 - **App Documentation:** [docs/INDEX.md](docs/INDEX.md) – application-specific docs index.
 - **GitHub Wiki (shared docs):** https://github.com/World-Domination-Software/Projects/wiki
 - **Documentation Site:** https://World-Domination-Software.github.io/Projects
