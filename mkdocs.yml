@@ -20,6 +20,18 @@ nav:
   - Getting Started: getting-started.md
   - Applications:
     - Index: INDEX.md
+    - Castle Walls:
+      - README: applications/castle-walls/README.md
+      - Overview: applications/castle-walls/Overview.md
+      - Getting Started: applications/castle-walls/Getting-Started.md
+      - Gameplay: applications/castle-walls/Gameplay.md
+      - Implementation Notes: applications/castle-walls/Implementation-Notes.md
+    - Do Not Shoot Aliens:
+      - README: applications/do-not-shoot-aliens/README.md
+      - Overview: applications/do-not-shoot-aliens/Overview.md
+      - Getting Started: applications/do-not-shoot-aliens/Getting-Started.md
+      - Gameplay: applications/do-not-shoot-aliens/Gameplay.md
+      - Implementation Notes: applications/do-not-shoot-aliens/Implementation-Notes.md
     - Game Servers Panel:
       - README: applications/game-servers-panel/README.md
       - Overview: applications/game-servers-panel/Overview.md
@@ -52,6 +64,12 @@ nav:
       - Getting Started: applications/roadkill/Getting-Started.md
       - Gameplay: applications/roadkill/Gameplay.md
       - Implementation Notes: applications/roadkill/Implementation-Notes.md
+    - Space Sim:
+      - README: applications/space-sim/README.md
+      - Overview: applications/space-sim/Overview.md
+      - Getting Started: applications/space-sim/Getting-Started.md
+      - Gameplay: applications/space-sim/Gameplay.md
+      - Implementation Notes: applications/space-sim/Implementation-Notes.md
   - Multiplayer: multiplayer.md
   - Troubleshooting: troubleshooting.md
   - Bug Reporting: bug-reporting.md
