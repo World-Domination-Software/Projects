@@ -17,6 +17,7 @@ An action game set across environments inspired by alien worlds. Players navigat
 - [Overview](./Overview.md) – What the game is, key features, architecture, and development status.
 - [Getting Started](./Getting-Started.md) – Installation, first launch, and basic gameplay tips.
 - [Gameplay](./Gameplay.md) – Game mechanics, controls, and progression.
+- [Game Design Document](./Hostile-Planets-Game-Design.md) – Full GDD: gameplay vision, systems design, and player experience overview.
 - [Implementation Notes](./Implementation-Notes.md) – Architecture, platform details, and development status.
 
 ## Public Links
