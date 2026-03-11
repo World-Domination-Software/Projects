@@ -42,6 +42,7 @@ nav:
       - Overview: applications/hostile-planets/Overview.md
       - Getting Started: applications/hostile-planets/Getting-Started.md
       - Gameplay: applications/hostile-planets/Gameplay.md
+      - Game Design Document: applications/hostile-planets/Hostile-Planets-Game-Design.md
       - Implementation Notes: applications/hostile-planets/Implementation-Notes.md
     - Optimization Protocol:
       - README: applications/optimization-protocol/README.md
