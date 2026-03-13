@@ -64,6 +64,7 @@ All project documentation lives in the [`docs/applications/`](docs/applications/
 | Application | Type | Docs | Discussions |
 |---|---|---|---|
 | Game Servers Panel | Hosting / Infrastructure | [Docs](docs/applications/game-servers-panel/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
+| WDS Matrix Stack | Infrastructure / Utility | [Docs](docs/applications/matrix-stack/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/game-servers-panel-general) |
 | Hostile Planets | Game | [Docs](docs/applications/hostile-planets/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/hostile-planets-general) |
 | Optimization Protocol | Utility | [Docs](docs/applications/optimization-protocol/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/optimization-protocol-general) |
 | Pure OPS | Game | [Docs](docs/applications/pure-ops/README.md) | [Discussions](https://github.com/World-Domination-Software/Projects/discussions/categories/pure-ops-general) |
